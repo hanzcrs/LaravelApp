@@ -1,0 +1,45 @@
+     https://www.youtube.com/watch?v=HqpC86CvrRU&t=1s&ab_channel=YouDevs
+
+   <!-- pasos de instalacion:
+        instalar composer: composer global require laravel/installer
+        crear proyecto: laravel new proyectolaravel
+        correr proyecto: php artisan serve
+        instalar composer: composer require laravel/ui
+        ocuparemos boostrap:
+        php artisan ui bootstrap --auth
+
+despues del warn
+npm install && npm run dev   = agregara js como app y resources app.scss
+
+para correr:  php artisan serve
+
+http://127.0.0.1:8000
+
+
+se agregara un login en la pagina princial de laravel esquin asuperior derecha
+
+                   ver lista de rutas creadas: php artisan route:list
+
+crear base datos: bliblioteca_bd
+
+ir a env. 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307
+DB_DATABASE=bliblioteca_bd
+DB_USERNAME=hanz
+DB_PASSWORD=hanz12345
+          
+se prepara para migrar php artisan migrate
+si sale eso funciono!
+  2014_10_12_000000_create_users_table ..................................................................... 43ms DONE
+  2014_10_12_100000_create_password_resets_table ........................................................... 35ms DONE
+  2019_08_19_000000_create_failed_jobs_table ............................................................... 36ms DONE
+  2019_12_14_000001_create_personal_access_tokens_table .................................................... 42ms DONE
+
+usuario administrador creado en la biblioteca_bd
+admnistrador
+franampuero123@gmail.com
+admin123
+
+https://www.youtube.com/watch?v=vNkE7YfaAmE&ab_channel=YouDevs
